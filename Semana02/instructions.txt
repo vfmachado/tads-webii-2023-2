@@ -1,0 +1,24 @@
+node 18 lts
+npm 9.6.7
+
+node package manager 
+npm init (--yes)
+ 
+inicializa um projeto em Nodejs criando o arquivo package.json que contem as dependencias, scripts, algumas variaveis de ambiente, dados de autor, etc...
+
+npm i node-pacotes
+npm install [package-name]@[version-number]
+
+npm i express
+
+esperamos ver no package.json nossas dependencias.
+
+DEPEDENCIES
+    esss vao para o build final
+
+DEVDEPENDENCIES
+    nao vao para o build de prod
+
+
+No Package.json temos uma seção de SCRIPTS  que servem para facilitar o processo de start, build, execução dos nossos códigos.
+
