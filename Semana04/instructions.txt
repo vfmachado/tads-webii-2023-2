@@ -1,0 +1,32 @@
+
+MVC
+    - Model View Controller
+    Model: modelo e acesso aos dados
+    View: interface, front, aquilo que o usuário vê
+    Controller: executar regras de negócio e conectar as camadas
+
+    REQUISICAO => ROUTE => CONTROLLER => VIEW
+                               AV
+                              MODEL
+
+DDD
+    entities
+    repositories
+    use-cases / services
+    controllers
+    routes
+    ...
+
+HEXAGONAL
+
+
+
+EJS - https://ejs.co/
+    Template Engine
+    - JS puro
+
+
+TAREFA 1
+    - Adotar um template de FRONTEND e adicionar no codigo
+    - Sugestões em https://www.w3schools.com/w3css/w3css_templates.asp
+

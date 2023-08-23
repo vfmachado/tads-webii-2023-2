@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%- include('./components/head.ejs') %>
+<link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <%- include('./components/navbar.ejs') %>
+    
+    <h1>CRIAR ALUNO</h1>
+    <form action="" method="POST">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name">
+        <br/>
+
+        <label for="stack">Stack</label>
+        <input type="text" name="stack" id="stack">
+        <br/>
+
+        <input type="submit" value="CADASTRAR">
+    </form>
+</body>
+</html>
