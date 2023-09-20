@@ -1,0 +1,10 @@
+EXERCICIOS
+
+SEMANA 04
+    - Adotar um template de FRONTEND e adicionar no codigo
+    - Sugestões em https://www.w3schools.com/w3css/w3css_templates.asp
+
+SEMANA 05
+    - PAGINA DE CRIACAO DO USER INDICANDO OS ERROS NO FORMULARIO
+    - INSERT, DETAIL, DELETE DE USUARIOS
+
