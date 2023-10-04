@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%- include('./components/head.ejs') %>
+<link rel="stylesheet" href="css/form.css">
+</head>
+ 
+<body>
+    <%- include('./components/navbar.ejs') %>
+    
+    <h1>EDITAR USER</h1>
+    <form action="/users/<%= user.id %>" method="POST" enctype="multipart/form-data">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" value="<%= user.name %>">
+        <br/>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" value="<%= user.email %>">
+        <br/>
+
+        <label for="image_upload">ARQUIVO DE FOTO</label>
+        <input type="file" name="image_upload" id="image_upload">
+        <br/>
+
+        <input type="submit" value="SALVAR">
+    </form>
+</body>
+</html>

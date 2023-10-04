@@ -1,0 +1,26 @@
+{
+  "name": "tads-webii-2023-2",
+  "version": "1.0.0",
+  "description": "## Vinicius Machado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "cross-env NODE_ENV=development node --watch src/server.js",
+    "dev": "cross-env NODE_ENV=development node --watch src/server.js",
+    "prod": "cross-env NODE_ENV=production node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "formidable": "^3.5.1",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.6"
+  }
+}
