@@ -43,7 +43,23 @@ dataSource.initialize().then(async connected => {
     const allUsers = await usersRepository.find({ relations: [ 'photos' ]});
     console.log({ allUsers });
 
+    const user7 = await usersRepository.find({
+        where: {
+            id: 7
+        },
+        relations: [
+            'seguidores'
+        ]
+    });
 
+    // TODOS OS USUARIOS QUE ALGUEM SEGUE
+
+
+    console.log(" ===== ");
+    console.log({ user7: JSON.stringify(user7, null, 2) })
+
+    const teste = await dataSource.query('select * from seguidores where seguidor_id = 4');
+    console.log({ teste })
     // PODEMOS, MAS NAO DEVEMOS =)
     //dataSource.query('')
     

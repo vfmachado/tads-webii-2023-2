@@ -2,6 +2,7 @@ const { DataSource } = require("typeorm");
 const { UserSchema } = require("../models/User");
 const { join } = require("path");
 const { PhotoSchema } = require("../models/Photo");
+const { SeguidorSchema } = require("../models/Seguidores");
 
 const dataSource = new DataSource({
     type: 'sqlite',
